@@ -14,9 +14,5 @@ winsorize <- function(list, percentile = 0.90, bounds = c(min(list[!is.na(list) 
     list[list > bounds[2]] <- bounds[2]
 
     return(list)
-  } else if (bounds[1] < min(list[!is.na(list) & is.finite(list)]) | bounds[2] > max(list[!is.na(list) & is.finite(list)])) {
-    stop("Bounds outside of data range")
-  } else if (percentile > 1 | percentile < 0) {
-    stop("Percentile must be btx. 0 and 1")
   }
 }

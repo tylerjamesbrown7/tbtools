@@ -2,10 +2,10 @@
 % Please edit documentation in R/regtable.R
 \name{regtable}
 \alias{regtable}
-\title{table for models}
+\title{tables for models}
 \usage{
 regtable(..., robust = FALSE, se_type = "HC0")
 }
 \description{
-table for models
+tables for models
 }

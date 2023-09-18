@@ -15,4 +15,7 @@ Imports:
 	lmtest,
 	sandwich,
 	AER,
-	stargazer
+	stargazer,
+	stats,
+	dplyr,
+	tidyverse
